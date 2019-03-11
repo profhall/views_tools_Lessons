@@ -1,0 +1,12 @@
+DragHandleDragHandle Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M938.675 369.488H85.326v98.134h853.349zM85.325 668.166h853.349v-98.134H85.325z

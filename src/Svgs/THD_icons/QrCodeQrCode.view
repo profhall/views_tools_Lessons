@@ -1,0 +1,12 @@
+QrCodeQrCode Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M318.132 712.695v77.6h-77.6v-77.6zm0-465.336v77.6h-77.6v-77.6zm465.336 0v77.6h-77.6v-77.6zm-620.536 620h232.8v-232h-232.8zm0-464.8h232.8v-232.8h-232.8zm465.336 0h232.8v-232.8h-232.8zm-155.2 155.2v387.732H85.336v-388zm310.4 310.136v77.6h-77.6v-77.6zm155.2 0v77.6h-77.6v-77.6zm0-310.4v232.8h-232.8v-77.6h-77.6v232.8h-77.6v-388h232.8v77.6h77.6v-77.6zM473.332 92.159v388h-388v-388zm465.336 0v388h-388v-388z

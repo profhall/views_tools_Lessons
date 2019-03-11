@@ -1,0 +1,12 @@
+DesktopAppleDesktopMac Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M859.733 132.694H160c-42.667 0-76.8 34.133-76.8 76.8v465.067c0 42.667 34.133 76.8 76.8 76.8h273.067l-76.8 115.2v38.4h311.467v-38.4l-76.8-115.2h273.067c42.667 0 76.8-34.133 76.8-76.8V209.494c-4.267-42.667-38.4-76.8-81.067-76.8zm0 465.067H160V209.494h699.733v388.267z

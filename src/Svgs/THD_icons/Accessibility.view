@@ -1,0 +1,12 @@
+Accessibility Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1029 1024
+width < 1029
+height < 1024
+SvgPath
+d M514.333 92.159c47.13 0 85.332 38.206 85.332 85.332s-38.206 85.332-85.332 85.332c-47.13 0-85.332-38.206-85.332-85.332 0-47.13 38.206-85.332 85.332-85.332zm384 298.668h-256v554.668h-85.332v-256h-85.332v256h-85.332V390.827h-256v-85.332h768z

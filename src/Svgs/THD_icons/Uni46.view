@@ -1,0 +1,12 @@
+Uni46 Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 640 1024
+width < 640
+height < 1024
+SvgPath
+d M544 156.16H96c-17.672 0-32 14.328-32 32v640c0 17.674 14.328 32 32 32s32-14.326 32-32v-288h352c17.674 0 32-14.328 32-32s-14.326-32-32-32H128v-256h416c17.674 0 32-14.328 32-32s-14.326-32-32-32z

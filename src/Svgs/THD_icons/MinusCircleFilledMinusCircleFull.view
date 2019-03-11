@@ -1,0 +1,12 @@
+MinusCircleFilledMinusCircleFull Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M512 92.16c-234.667 0-426.667 192-426.667 426.667s192 426.667 426.667 426.667 426.667-192 426.667-426.667S746.667 92.16 512 92.16zm213.333 469.334H298.666v-85.333h426.667v85.333z

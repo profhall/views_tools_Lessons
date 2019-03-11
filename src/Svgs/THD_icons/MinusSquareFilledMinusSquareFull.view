@@ -1,0 +1,12 @@
+MinusSquareFilledMinusSquareFull Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M843.85 92.159H180.146c-52.366 0-94.814 42.45-94.814 94.814v663.704c0 52.366 42.45 94.814 94.814 94.814H843.85c52.366 0 94.814-42.45 94.814-94.814V186.973c0-52.366-42.45-94.814-94.814-94.814zm-94.814 474.077H274.963v-94.814h474.073z

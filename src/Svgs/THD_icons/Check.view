@@ -1,0 +1,12 @@
+Check Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M353.5 785.635l51.906 53.191L939.022 305.21 830.925 198.829l-426.809 425.95-212.332-212.332L84.977 520.113 353.5 785.634z

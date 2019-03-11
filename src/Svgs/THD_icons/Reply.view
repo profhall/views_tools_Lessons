@@ -1,0 +1,12 @@
+Reply Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M415.165 345.016V151.621L76.789 489.997l338.376 338.648V630.352c241.814 0 411.001 77.252 532.044 246.71-48.416-241.814-193.395-483.628-532.044-532.044z

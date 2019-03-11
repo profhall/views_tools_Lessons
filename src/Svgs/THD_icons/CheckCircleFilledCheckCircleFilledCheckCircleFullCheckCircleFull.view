@@ -1,0 +1,12 @@
+CheckCircleFilledCheckCircleFilledCheckCircleFullCheckCircleFull Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M512 92.16c-234.667 0-426.667 192-426.667 426.667s192 426.667 426.667 426.667 426.667-192 426.667-426.667S746.667 92.16 512 92.16zm-46.933 622.934L435.2 685.227l-157.867-140.8 55.467-64 128 115.2 230.4-251.733 64 55.467-290.133 315.733z

@@ -1,0 +1,19 @@
+Cards Vertical
+  flexGrow 1
+  flexShrink 1
+  flexBasis auto
+  Cards Vertical
+    flexBasis auto
+    flexGrow 1
+    flexShrink 1
+    width 100%
+    backgroundColor #000000
+    alignItems center
+    List
+      from <
+      flexBasis auto
+      flexGrow 1
+      flexShrink 1
+      overflowY auto
+      Card
+        onClick <

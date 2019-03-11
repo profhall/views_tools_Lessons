@@ -1,0 +1,12 @@
+Navigation Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M200.669 945.495L512.08 806.318l311.411 139.177c15.444-11.222 26.923-27.07 32.461-45.488L512.081 92.159 168.05 899.391c5.697 19.034 17.176 34.882 32.37 45.93z

@@ -1,0 +1,12 @@
+VolumeMute Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M273.067 356.694v324.267H486.4l264.533 264.533V92.161L486.4 356.694z

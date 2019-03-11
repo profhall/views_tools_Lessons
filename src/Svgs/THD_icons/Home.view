@@ -1,0 +1,12 @@
+Home Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M426.667 881.493v-256h170.667v256h213.333V540.16h128L512 156.16l-426.667 384h128v341.333z

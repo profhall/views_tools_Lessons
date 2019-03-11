@@ -1,0 +1,12 @@
+ArrowRightArrowRight Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M512 92.16l-76.8 76.8 298.667 298.667H85.334v102.4h648.533L435.2 868.694l76.8 76.8 426.667-426.667z

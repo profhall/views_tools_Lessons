@@ -1,0 +1,12 @@
+StarFilledStar Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M512 767.647l260.956 157.524-69.396-296.843 230.612-199.741-303.44-25.596-118.736-279.956L393.26 402.991 89.82 428.587l230.612 199.741-69.396 296.843 260.956-157.524z

@@ -1,0 +1,12 @@
+VideoCamera Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M753.066 448.427v-166.4c0-25.6-21.333-46.933-46.933-46.933H134.4c-25.6 0-46.933 21.333-46.933 46.933v473.6c0 25.6 21.333 46.933 46.933 46.933h567.467c25.6 0 46.933-21.333 46.933-46.933v-166.4L936.533 776.96V260.693L753.066 448.426z

@@ -1,0 +1,12 @@
+ArrowSubLeftArrowSubLeft Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M507.733 416.427l-183.467 179.2h469.333V92.16h102.4v601.6H324.266l183.467 179.2-72.533 72.533L128 642.56l307.2-298.667z

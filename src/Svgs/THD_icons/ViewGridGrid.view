@@ -1,0 +1,12 @@
+ViewGridGrid Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1039 1024
+width < 1039
+height < 1024
+SvgPath
+d M546.971 177.491h314.026v310.616H546.971V177.491zm-368.64 0h314.026v310.616H178.331V177.491zm0 372.056h314.026v310.616H178.331V549.547zm368.64 0h314.026v310.616H546.971V549.547z

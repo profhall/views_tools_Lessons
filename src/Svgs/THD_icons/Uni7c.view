@@ -1,0 +1,12 @@
+Uni7c Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 192 1024
+width < 192
+height < 1024
+SvgPath
+d M96 1052.16c-17.672 0-32-14.326-32-32v-960c0-17.672 14.328-32 32-32s32 14.328 32 32v960c0 17.674-14.326 32-32 32z

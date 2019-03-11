@@ -1,0 +1,12 @@
+Code2 Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M401.067 715.094L204.8 518.827 401.067 322.56l-59.733-59.733-256 256 256 256 59.733-59.733zm221.866 0L819.2 518.827 622.933 322.56l59.733-59.733 256 256-256 256-59.733-59.733z

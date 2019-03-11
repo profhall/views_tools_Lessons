@@ -1,0 +1,12 @@
+Windows Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M435.2 499.199H85.332V209.491L435.2 161.279zm0 376.748L85.332 828.159V542.291H435.2zm503.468-376.748H473.6V157.867l465.068-65.708zm0 446.296l-465.068-64v-339.2h465.068z

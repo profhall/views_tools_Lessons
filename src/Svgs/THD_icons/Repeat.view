@@ -1,0 +1,12 @@
+Repeat Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1029 1024
+width < 1029
+height < 1024
+SvgPath
+d M301.001 305.495h426.668v128l170.668-170.668L727.669 92.159v128h-512v256h85.332V305.491zm426.664 426.664H300.997v-128L130.329 774.827l170.668 170.668v-128h512v-256h-85.332v170.668z

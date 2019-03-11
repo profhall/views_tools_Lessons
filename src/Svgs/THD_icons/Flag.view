@@ -1,0 +1,12 @@
+Flag Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1032 1024
+width < 1032
+height < 1024
+SvgPath
+d M609.866 194.56l-21.333-102.4h-435.2v853.333h98.133V595.626h268.8l21.333 98.133h337.067v-499.2z

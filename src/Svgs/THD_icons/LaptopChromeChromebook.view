@@ -1,0 +1,12 @@
+LaptopChromeChromebook Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M866.134 749.227V220.16H157.867v529.067H85.334v68.267h853.333v-68.267h-72.533zm-281.6 0h-140.8v-34.133h140.8v34.133zM797.868 642.56H226.135V288.427h567.467V642.56z

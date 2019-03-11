@@ -1,0 +1,12 @@
+HourGlass Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1041 1024
+width < 1041
+height < 1024
+SvgPath
+d M264.332 92.159v256L435 518.827 264.332 689.495v256h512v-256L605.664 518.827l170.668-170.668v-256zM691 710.827v149.332H349.668V710.827l170.668-170.668zM520.332 497.495L349.664 326.827V177.495h341.332v149.332z

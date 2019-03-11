@@ -1,0 +1,12 @@
+ControlsFastForwardFastForward Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M85.333 813.227L499.2 523.094 85.333 224.427v588.8zm439.467-588.8V808.96l413.867-290.133-413.867-294.4z

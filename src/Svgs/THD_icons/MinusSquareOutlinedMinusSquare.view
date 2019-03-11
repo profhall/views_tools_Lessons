@@ -1,0 +1,12 @@
+MinusSquareOutlinedMinusSquare Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M274.964 471.418h474.073v94.814H274.964v-94.814zM843.85 92.159H180.146c-52.366 0-94.814 42.45-94.814 94.814v663.704c0 52.366 42.45 94.814 94.814 94.814H843.85c52.366 0 94.814-42.45 94.814-94.814V186.973c0-52.366-42.45-94.814-94.814-94.814zm0 758.518H180.146V186.973H843.85z

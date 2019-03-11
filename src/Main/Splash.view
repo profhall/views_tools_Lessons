@@ -1,0 +1,13 @@
+Splash Vertical
+  flexBasis auto
+  flexGrow 1
+  flexShrink 1
+  Splash Vertical
+    flexBasis auto
+    flexGrow 1
+    flexShrink 1
+    alignItems center
+    justifyContent center
+    HomedepotLogoHomedepot
+      height 250
+      width 250

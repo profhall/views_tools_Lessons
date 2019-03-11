@@ -1,0 +1,12 @@
+ToolPaintRollerToolPaintRollerPaintRollerPaintRoller Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 1024 1024
+width < 1024
+height < 1024
+SvgPath
+d M938.667 442.027v-294.4H780.8V92.16H85.333v192H780.8v-55.467h76.8V360.96H435.2v157.867h-25.6v426.667h128V518.827h-21.333v-76.8z

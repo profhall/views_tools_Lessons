@@ -1,0 +1,17 @@
+Views Svg
+alignSelf < auto
+marginTop < 0
+marginBottom < 0
+marginLeft < 0
+marginRight < 0
+opacity < 1
+viewBox 0 0 64 64
+width < 64
+height < 64
+SvgPath
+fill < none
+stroke < #454545
+strokeWidth 2
+strokeLinejoin round
+strokeMiterlimit 10
+d M6 14.7h34.7v34.7H6zM40.7 14.7H58V32H40.7zM40.7 32H58v17.3H40.7z
