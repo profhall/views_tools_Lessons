@@ -63,7 +63,7 @@ export default class AppLogic extends React.Component {
     console.log(card.target.classList);
 
     if(!this.state.matchCard_selected || this.state.matchCard_ID === cardID){
-
+      //turn this to a function called setMatchCard
       this.setState(prevState => (
 
           {
@@ -89,6 +89,7 @@ export default class AppLogic extends React.Component {
           });
     }
     else{
+      //turn this to a function call CompareCards
       this.setState(prevState => (
 
           {
