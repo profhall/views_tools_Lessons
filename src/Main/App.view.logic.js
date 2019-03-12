@@ -12,7 +12,7 @@ export default class AppLogic extends React.Component {
       isLoading : true,
       isReady : false,
       matchCard: null,
-      matchCard_selected: null,
+      matchCard_selected: false,
       matchingCard:null,
       correctMatches: 0
     };
@@ -60,9 +60,9 @@ export default class AppLogic extends React.Component {
     const cardID = card.target.id;
     console.log("card Clicked ");
     console.log(cardValue);
-    console.log(card.target);
+    console.log(card.target.classList);
 
-    if(!this.state.matchCard_selected){
+    if(!this.state.matchCard_selected || this.state.matchCard_ID === cardID){
 
       this.setState(prevState => (
 
@@ -74,14 +74,35 @@ export default class AppLogic extends React.Component {
           ()=>
           {
             console.log(this.state.matchCard);
-            console.log("is match card selected "+this.state.matchCard_selected + " with ID: "+ this.state.matchCard_ID);
+            console.log("match card selected "+this.state.matchCard_selected + " with ID: "+ this.state.matchCard_ID);
+
+            //if Match card is selected again remove from state it as matchCard and reset everything else
+            if(!this.state.matchCard_selected){
+              this.setState(prevState => (
+
+                  {
+                    matchCard: null,
+                    matchCard_selected: false,
+                    matchingCard:null,
+                  }))
+            }
           });
     }
     else{
-      console.log(this.state.matchCard);
+      this.setState(prevState => (
+
+          {
+            matchingCard: cardValue,
+            matchingCard_ID:cardID,
+          }), ()=>
+      {
+        console.log(this.state.matchingCard);
+        console.log("matching card selected "+this.state.matchCard_selected + " with ID: "+ this.state.matchingCard_ID);
+      });
+
     }
 
-    this.increment()
+    //this.increment()
   };
 
   render() {
@@ -92,7 +113,7 @@ export default class AppLogic extends React.Component {
         isReady = {this.state.isReady}
         score={this.state.correctMatches}
         matchCardValue={this.state.matchCard ? (this.state.matchCard + " :: " + this.state.matchCard_ID) : 'not selected' }
-        compareCardValue={this.state.matchCard_selected ? "matchingCard" : 'not selected' }
+        compareCardValue={this.state.matchingCard ? this.state.matchingCard + " :: " + this.state.matchingCard_ID: 'not selected' }
         matchValues={this.state.matchValues}
         {...this.props}
     />
