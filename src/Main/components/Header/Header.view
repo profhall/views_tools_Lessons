@@ -1,0 +1,28 @@
+Header Horizontal
+  height 10%
+  backgroundColor #F96302
+  justifyContent spaceAround
+  alignItems center
+  Mvalue Text
+    color #09bb00
+    fontFamily Montserrat
+    fontSize 16
+    fontWeight 600
+    text <matchCardValue none
+    alignSelf auto
+
+  Score Text
+    color #fffd00
+    fontFamily Montserrat
+    fontSize 25
+    fontWeight 600
+    text <score score
+    textAlign center
+
+  Cvalue Text
+    color #d00000
+    fontFamily Montserrat
+    fontSize 16
+    fontWeight 600
+    text <compareCardValue none
+    alignSelf auto

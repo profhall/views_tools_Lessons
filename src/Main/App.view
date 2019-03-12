@@ -3,6 +3,7 @@ App Vertical
   flexBasis auto
   justifyContent center
   flexGrow 1
+  height 100vh
   Splash
     onWhen <isLoading
 
@@ -11,5 +12,12 @@ App Vertical
     flexGrow 1
     flexShrink 1
     onWhen <isReady
+    height 100%
+    Header
+      score < correct
+      matchCardValue < none
+      compareCardValue < none
+
     Cards
       onClick <cardClick
+      matchValues <

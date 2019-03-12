@@ -1,6 +1,5 @@
-Card Horizontal
-  width 325
-  height 75
+Card Vertical
+  width 31%
   backgroundColor #F96302
   marginTop 10
   marginBottom 10
@@ -8,9 +7,14 @@ Card Horizontal
   borderTopRightRadius 10
   borderBottomLeftRadius 10
   borderBottomRightRadius 10
-  onClick <
   alignItems center
   justifyContent center
-  Git
-    width 75
-    height 75
+  onClick <
+  height 13%
+  Text
+    color #ffffff
+    fontFamily Montserrat
+    fontSize 3em
+    fontWeight 600
+    text <matchValue 1
+    alignSelf center

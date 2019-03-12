@@ -1,19 +1,18 @@
 Cards Vertical
-  flexGrow 1
-  flexShrink 1
-  flexBasis auto
-  Cards Vertical
-    flexBasis auto
-    flexGrow 1
-    flexShrink 1
+  height 90%
+  Cards Horizontal
     width 100%
-    backgroundColor #000000
     alignItems center
+    height 100%
+    backgroundColor #000000
     List
-      from <
-      flexBasis auto
-      flexGrow 1
-      flexShrink 1
-      overflowY auto
+      from <matchValues
+      width 100%
+      justifyContent spaceAround
+      height 100%
+      flexDirection row
+      flexWrap wrap
+      overflowY hidden
       Card
         onClick <
+        matchValue < 1
