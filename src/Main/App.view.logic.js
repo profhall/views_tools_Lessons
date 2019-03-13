@@ -16,7 +16,7 @@ export default class AppLogic extends React.Component {
       matchingCard:null,
       correctMatches: 0
     };
-    this.increment = this.increment.bind(this)
+    this.incrementScore = this.incrementScore.bind(this)
     this.shuffle = require('shuffle-array')
 
 
@@ -39,71 +39,87 @@ export default class AppLogic extends React.Component {
     console.log("Hello from after mounting")
   }
 
-  increment = () => {
+  incrementScore = () => {
     this.setState(prevState => ({
       correctMatches: prevState.correctMatches + 1
     }));
-    console.log("increment ");
+    console.log("Heeey! You get a point!");
 
   };
 
-  decrement = () => {
-    this.setState(prevState => ({
-      correctMatches: prevState.correctMatches - 1
-    }));
-    console.log("decrement ");
+  resetPicks = () =>{
+    this.setState(prevState => (
 
+        {
+          matchCard: null,
+          matchCard_selected: false,
+          matchingCard:null,
+        }))
+  };
+
+  decrementScore = () => {
+    this.setState(prevState => ({
+      correctMatches: prevState.correctMatches === 0 ? 0 :prevState.correctMatches - 1
+    }));
+    console.log("Sorry! You lost a point!");
+
+  };
+
+  setMatchCard = (cardValue,cardID) => {
+    this.setState(prevState => (
+
+            {
+              matchCard: cardValue,
+              matchCard_ID:cardID,
+              matchCard_selected: !prevState.matchCard_selected
+            }),
+        ()=>
+        {
+          console.log(this.state.matchCard);
+          console.log("match card selected "+this.state.matchCard_selected + " with ID: "+ this.state.matchCard_ID);
+
+          //if Match card is selected again remove from state it as matchCard and resetPicks everything else
+          if(!this.state.matchCard_selected){
+            this.resetPicks()
+          }
+        });
+  };
+
+  compareCards = (cardValue,cardID) => {
+    this.setState(prevState => (
+
+        {
+          matchingCard: cardValue,
+          matchingCard_ID:cardID,
+        }), ()=>
+    {
+      console.log("matching card is "+ this.state.matchingCard + " with ID: "+ this.state.matchingCard_ID);
+      // console.log("matching card selected "+this.state.matchCard_selected + " with ID: "+ this.state.matchingCard_ID);
+
+      if(this.state.matchingCard === this.state.matchCard){
+        this.incrementScore();
+        this.resetPicks();
+        //run function to disable cards
+      }
+      else{
+        this.decrementScore()
+      }
+
+    });
   };
 
   cardClick = card =>{
     const cardValue = card.target.innerText;
     const cardID = card.target.id;
     console.log("card Clicked ");
-    console.log(cardValue);
-    console.log(card.target.classList);
-
+    // console.log(cardValue);
+    // console.log(card.target.classList);
     if(!this.state.matchCard_selected || this.state.matchCard_ID === cardID){
-      //turn this to a function called setMatchCard
-      this.setState(prevState => (
-
-          {
-            matchCard: cardValue,
-            matchCard_ID:cardID,
-            matchCard_selected: !prevState.matchCard_selected
-          }),
-          ()=>
-          {
-            console.log(this.state.matchCard);
-            console.log("match card selected "+this.state.matchCard_selected + " with ID: "+ this.state.matchCard_ID);
-
-            //if Match card is selected again remove from state it as matchCard and reset everything else
-            if(!this.state.matchCard_selected){
-              this.setState(prevState => (
-
-                  {
-                    matchCard: null,
-                    matchCard_selected: false,
-                    matchingCard:null,
-                  }))
-            }
-          });
+      this.setMatchCard(cardValue,cardID)
     }
     else{
-      //turn this to a function call CompareCards
-      this.setState(prevState => (
-
-          {
-            matchingCard: cardValue,
-            matchingCard_ID:cardID,
-          }), ()=>
-      {
-        console.log(this.state.matchingCard);
-        console.log("matching card selected "+this.state.matchCard_selected + " with ID: "+ this.state.matchingCard_ID);
-      });
-
+      this.compareCards(cardValue,cardID)
     }
-
-    //this.increment()
   };
 
   render() {
