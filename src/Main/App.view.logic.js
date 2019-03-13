@@ -14,7 +14,8 @@ export default class AppLogic extends React.Component {
       matchCard: null,
       matchCard_selected: false,
       matchingCard:null,
-      correctMatches: 0
+      correctMatches: 0,
+      disableCards: Array()
     };
     this.incrementScore = this.incrementScore.bind(this)
     this.shuffle = require('shuffle-array')
@@ -86,20 +87,28 @@ export default class AppLogic extends React.Component {
   };
 
   compareCards = (cardValue,cardID) => {
-    this.setState(prevState => (
+
+    this.setState(
 
         {
           matchingCard: cardValue,
           matchingCard_ID:cardID,
-        }), ()=>
+        }, ()=>
     {
       console.log("matching card is "+ this.state.matchingCard + " with ID: "+ this.state.matchingCard_ID);
       // console.log("matching card selected "+this.state.matchCard_selected + " with ID: "+ this.state.matchingCard_ID);
 
       if(this.state.matchingCard === this.state.matchCard){
         this.incrementScore();
+
+        console.log(this.state.matchingCard)
         this.resetPicks();
         //run function to disable cards
+        //this.disableCards(this.state.matchingCard )
+        this.setState(
+            {disableCards:this.state.disableCards.concat(this.state.matchingCard)},
+            () => {console.log(this.state.disableCards)})
+
       }
       else{
         this.decrementScore()
@@ -111,6 +120,7 @@ export default class AppLogic extends React.Component {
   cardClick = card =>{
     const cardValue = card.target.innerText;
     const cardID = card.target.id;
+
     console.log("card Clicked ");
     // console.log(cardValue);
     // console.log(card.target.classList);
@@ -132,6 +142,7 @@ export default class AppLogic extends React.Component {
         matchCardValue={this.state.matchCard ? (this.state.matchCard + " :: " + this.state.matchCard_ID) : 'not selected' }
         compareCardValue={this.state.matchingCard ? this.state.matchingCard + " :: " + this.state.matchingCard_ID: 'not selected' }
         matchValues={this.state.matchValues}
+        disabledCards={this.state.disableCards}
         {...this.props}
     />
   }
