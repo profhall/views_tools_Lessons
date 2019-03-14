@@ -11,8 +11,8 @@ Card Vertical
   justifyContent center
   height 13%
   onClick <
-  cardEnabled < showCard
   id <index
+  disabled
   Text
     color #ffffff
     fontFamily Montserrat
