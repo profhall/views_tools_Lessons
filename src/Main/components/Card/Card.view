@@ -9,12 +9,17 @@ Card Vertical
   borderBottomRightRadius 10
   alignItems center
   justifyContent center
-  onClick <
   height 13%
+  onClick <
+  cardEnabled < showCard
+  id <index
   Text
     color #ffffff
     fontFamily Montserrat
     fontSize 3em
     fontWeight 600
-    text <matchValue 1
+    text <matchValue item
     alignSelf center
+    when <isDisabled
+    color #000000
+    fontFamily < Montserrat

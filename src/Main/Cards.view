@@ -16,3 +16,4 @@ Cards Vertical
       Card
         onClick <
         matchValue < 1
+        cardEnabled <showCard showCard

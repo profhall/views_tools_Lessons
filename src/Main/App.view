@@ -18,6 +18,7 @@ App Vertical
       matchCardValue < none
       compareCardValue < none
 
-    Cards
+    CardsContainer Cards
       onClick <cardClick
       matchValues <
+      showCard < showCard
